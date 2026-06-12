@@ -1,6 +1,6 @@
 **Superstore Sales Dashboard — Power BI**
 
-**#Overview**
+**Overview**
 An end-to-end interactive sales dashboard built on the
 Kaggle Superstore Sales dataset (9,800+ rows).
 Built entirely from scratch as my first Power BI project.
@@ -10,7 +10,7 @@ Built entirely from scratch as my first Power BI project.
 - DAX (Data Analysis Expressions)
 - Power Query
 
-#What I Did
+**What I Did**
 
 **Data Cleaning (Power Query)**
 - Fixed data types — Sales to decimal, dates to date format
@@ -19,11 +19,11 @@ Built entirely from scratch as my first Power BI project.
 - Trimmed whitespace from text columns
 - Removed unnecessary columns
 
-Data Model
+**Data Model**
 - Created a Date Table using CALENDARAUTO()
 - Built a relationship between Date Table and Orders Table
 
-DAX Measures
+**DAX Measures**
 - Total Sales — sum of all sales
 - Total Orders — count of all transactions
 - Avg Order Value — sales divided by orders
@@ -39,16 +39,16 @@ DAX Measures
 - Top 10 Customers by Sales table
 - Slicers for Year, Region and Category
 
-## Key Insights
+**Key Insights**
 - Technology is the highest selling category
 - Q4 consistently spikes every year across all years
 - West region leads in total sales
 - 2018 was the highest revenue year
 
-## Files
+**Files**
 - Superstore_Sales.pbix
 - Superstore_Sales_Dataset.csv
 - dashboard_screenshot.png
 
-## Dataset Source
+**Dataset Source**
 Kaggle — Superstore Sales Dataset
